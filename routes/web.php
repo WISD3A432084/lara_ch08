@@ -10,10 +10,8 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', function () {
-    return view('welcome');
-});
+//練習八: 修改根路由'/'，使之可執行HomeController的indexc函數
+Route::get('/', 'HomeController@indexc');
 
 //練習一: 顯示學生的資料與成績
 /*Route::get('student/{student_no}',function ($student_no){
