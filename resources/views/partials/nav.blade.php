@@ -4,7 +4,7 @@
         <a class="navbar-brand" href="/">HelloLaravel</a>
         <ul class="nav navbar-nav">
             <li>
-                <a href="#">排行榜</a>
+                <a href="board.blade.php">排行榜</a>
             </li>
         </ul>
     </div>
